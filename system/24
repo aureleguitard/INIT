@@ -1,0 +1,3 @@
+dpkg-query -l
+
+# Meme chose que apt list –installed.

@@ -1,0 +1,4 @@
+on commence par mettre la commande ; su - username
+ensuite mettre le mot de passe enregistrer avec le nom du username.
+and voila.
+et pour le SSH : ssh <user>@<ip> voila

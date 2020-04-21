@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo "delete this user:"
+read user
+userdel -f $user

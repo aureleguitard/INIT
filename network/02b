@@ -1,0 +1,2 @@
+arp -a
+# display toutes les arp entries , qui nous montre toutes les adresse IP des subnet donc de tout le monde.

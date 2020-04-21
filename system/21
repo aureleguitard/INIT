@@ -1,0 +1,5 @@
+cat /etc/passwd | grep :1000: | awk -F ':' '{print $1}'
+
+# on regroupe les :1000: car cela defini un user
+# awk choisit la ligne
+# -F = le separateur dans ce cas ':' et on print le premier mot.

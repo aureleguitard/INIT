@@ -1,0 +1,2 @@
+ifconfig en1 | grep ether | cut -d " " -f 2 
+# en1 est la carte wireless , cut -d avec delimiter espace -f= specifies un field list 

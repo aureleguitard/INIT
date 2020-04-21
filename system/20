@@ -1,0 +1,4 @@
+cat /etc/passwd | awk -F ':' '{print $1}'
+ 
+# awk choisit la ligne
+# -F = le separateur dans ce cas ':' et on print le premier mot.

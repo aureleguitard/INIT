@@ -1,0 +1,4 @@
+nslookup slash16.org | grep Server | awk '{print $2}'
+
+# Nslookup is a program to query Internet domain name servers.
+# nslookup slash16.org | grep Address | awk '{print $2}' pour print que les adress.

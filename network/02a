@@ -1,0 +1,4 @@
+ifconfig en0 | grep broadcast | awk '{print $6}'
+# ifconfig de en0 , car c'est le seul qui a un broadcast adress.
+# grep broadcast pour regrouper que les broadcast.
+# awk scan ligne et son argument print utiliser pour print le 6eme mot.

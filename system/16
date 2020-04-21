@@ -1,0 +1,10 @@
+le service est : crontab
+
+# * * * * * /bin/execute/this/script.sh
+# They are all still asterisks! So this means execute /bin/execute/this/script.sh:
+
+# every minute
+# of every hour
+# of every day of the month
+# of every month
+# and every day in the week.

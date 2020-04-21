@@ -1,0 +1,3 @@
+/etc/init.d/ssh stop
+
+# on le rend inactive donc on le kill.

@@ -1,0 +1,1 @@
+cat /etc/resolv.conf ceci est generer automatiquement et contient le ip address du DNS server 

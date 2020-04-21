@@ -1,0 +1,8 @@
+traceroute slash16.org
+
+# In the results you will see the comment, "over a maximum of 30 hops or 64." All this means is that the diameter of the Internet is roughly 30 or 64 hops. Therefore, many trace routes will only go that far out in trying to reach a destination.
+
+# The first column is the hop number, which is the Time-To-Live (TTL) value set in the packet.
+
+# The next three columns contains the round-trip times in milliseconds for an attempt to reach the destination with the TTL value. The last column is the host name (if it was resolved) and IP address of the responding system.
+# The purpose of this utility is to show you the path your traffic takes when you are attempting to connect to another machine.

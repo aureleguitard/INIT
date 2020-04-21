@@ -1,0 +1,10 @@
+netstat -nr | grep default | grep UGSc | cut -b 20-31
+# It's important for you to know the internal IP address of your default gateway, which is normally your router's LAN IP address.
+
+# If you have ever had to access your router to configure it, you should know the address. It's what you type in your browser address bar to reach the configuration interface (example: http://192.168.1.1/) and, if not, you can find it witt that.
+
+# netstat show network status
+# Show network addresses as numbers (normally netstat interprets addresses and 
+# attempts to display them symbolically).This option may be used with any of the 
+# display formats.
+#-r show routing tables.

@@ -1,0 +1,4 @@
+systemctl list-units --type service
+
+# list-units tous les services montrer 
+# --type les services 
